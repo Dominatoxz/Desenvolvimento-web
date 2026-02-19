@@ -1,0 +1,36 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero{
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 3 rem;
+    color: #213547;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    color: #646cff;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card{
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: transform 0.2s, border-color 0.2s;
+    background-color: #fff;
+}
