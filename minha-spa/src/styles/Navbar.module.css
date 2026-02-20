@@ -1,21 +1,23 @@
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 1rem 10%;
+    background-color: #242424;
+    color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    gap: 40px;
-    padding: 1rem 2rem;
-    background-image: linear-gradient(90deg,rgba(42, 95, 155, 1) 0%, rgba(87, 106, 199, 1) 50%, rgba(83, 91, 237, 1) 100%);
-    color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-image: linear-gradient(90deg,rgba(155, 85, 42, 1) 0%, rgba(199, 141, 87, 1) 50%, rgba(255, 183, 100, 1) 100%);
 }
 
 .logo{
     font-size: 1.5rem;
     font-weight: bold;
-    color: #646cff;
+    color: #ffb764;
 }
 
 .links{
@@ -31,10 +33,10 @@
 }
 
 .link:hover{
-    color: #646cff;
+    color: #000000;
 }
 
 .active{
-    border-bottom: 2px solid #646cff;
-    color: #646cff;
+    border-bottom: 2px solid #ffb764;
+    color: #b164ff;
 }

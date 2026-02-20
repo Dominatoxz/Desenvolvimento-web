@@ -9,13 +9,13 @@
 
 .header{
     text-align: center;
-    border-bottom: 2px solid #646cff;
+    border-bottom: 2px solid #ffb764;
     margin-bottom: 30px;
     padding-bottom: 20px;
 }
 
 .title{
-    color: #646cff;
+    color: #ffb764;
     font-size: 2.5rem;
     margin: 0;
 }
@@ -29,6 +29,7 @@
 .content{
     background-color: #fff;
     padding: 20px;
+    border-radius: 20px;
 }
 
 .card{
@@ -57,7 +58,7 @@
 
 .list li::before{ /*Insere um conteúdo antes do elemento especificado*/
     content: '✓';
-    color: #646cff;
+    color: #ffb764;
     font-weight: bold;
     margin-right: 10px;
 }
